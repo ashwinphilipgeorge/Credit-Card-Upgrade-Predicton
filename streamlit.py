@@ -8,11 +8,13 @@ st.text('This app was created by Ashwin Philip George for the module CET023.')
 st.text('The model used is a Gradient Boosting Classifier from Sklearn.')
  
 GB_model = joblib.load("./credit_card_model")
-DT_model = joblib.load("./credit_card_model_DTC")
-LR_model = joblib.load("./credit_card_model_LR")
+DT_model = joblib.load("./decision_tree_model")
+RFR_model = joblib.load("./random_forest_model")
+LR_model = joblib.load("./linear_regression_model")
 
 models = {'Gradient Boost Model': GB_model,
           'Decision Tree Model': DT_model,
+          'Rnadom Forest Model': RFR_model,
           'Linear Regression Model': LR_model}
 
 st.subheader("View Dataset here")
