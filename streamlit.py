@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 import pandas as pd
-import numpy as np
+
 
 st.title('Prediction of Credit Card Upgrade')
 st.text('This app was created by Ashwin Philip George for the module CET023.')
