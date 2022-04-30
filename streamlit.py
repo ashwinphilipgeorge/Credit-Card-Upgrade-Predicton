@@ -28,7 +28,7 @@ if st.checkbox('Show raw data'):
 
 
 
-purchases = st.text_input('What is the value of purchases made by the user?')
+purchases = st.text_input('How many purchases has the user made?')
 
 option = st.selectbox( 'Does the Person have a Supplementary Card?', ['Yes','No'])
 
