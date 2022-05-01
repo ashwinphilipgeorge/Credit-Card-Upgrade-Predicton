@@ -7,10 +7,10 @@ st.title('Prediction of Credit Card Upgrade')
 st.text('This app was created by Ashwin Philip George for the module CET023.')
 st.text('4 models are used in this app.')
  
-GB_model = joblib.load("./gradient_boost_model")
-DT_model = joblib.load("./decision_tree_model")
-RFR_model = joblib.load("./random_forest_model")
-LR_model = joblib.load("./linear_regression_model")
+GB_model = joblib.load("./models/gradient_boost_model")
+DT_model = joblib.load("./models/decision_tree_model")
+RFR_model = joblib.load("./models/random_forest_model")
+LR_model = joblib.load("./models/linear_regression_model")
 
 models = {'Gradient Boost Model': GB_model,
           'Decision Tree Model': DT_model,
